@@ -8,7 +8,8 @@ status = {
 
 choy1 = "voce trabalhou: "
 hist = {
-d
+
 }
-def history():
-    hist.
+def history(choy):
+    hist.update(choy)
+    print(hist)

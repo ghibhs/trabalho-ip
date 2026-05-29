@@ -1,13 +1,18 @@
 import show as sw, data as dt
 
 def choy1(answer):
+    alter = []
     if answer == "true":
         sw.show_status("you won")
         dt.status["sanity"] -= 15
+        alter.append(["sanity", "-15"])
         dt.status["clean"] -= 1
+        alter.append(["clean", "-1"])
         dt.status["money"] += 56
+        alter.append(["money", "+56"])
     else:
         pass
+    return alter
 
 def choy2():
     if True:
