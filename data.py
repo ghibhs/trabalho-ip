@@ -8,7 +8,7 @@ status = {
 
 choy1 = "voce trabalhou: "
 hist = {
-
+d
 }
 def history():
     hist.
