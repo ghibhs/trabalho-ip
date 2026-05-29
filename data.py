@@ -11,4 +11,4 @@ hist = {
 
 }
 def history():
-    hist
+    hist.
