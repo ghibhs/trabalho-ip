@@ -5,3 +5,4 @@ status = {
     "money": 100,
     "clean": 5,
 }
+#DSGCGHSC
