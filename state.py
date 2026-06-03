@@ -24,3 +24,6 @@ def limit(opt):
     
     else:
         return False
+
+def recovery():
+    dt.status["health"] += 10; dt.status["sanity"] += 10; dt.status["hungry"] -= 20; dt.status["clean"] -= 1;
