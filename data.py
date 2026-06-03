@@ -7,9 +7,7 @@ status = {
 }
 
 choy1 = "voce trabalhou: "
-hist = {
-
-}
+hist = {}
 def history(choy):
     hist.update(choy)
     print(hist)
