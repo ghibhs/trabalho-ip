@@ -6,8 +6,10 @@ status = {
     "clean": 5,
 }
 
-choy1 = "voce trabalhou: "
+choy = ((1 ,"Você trabalhou? "), (2, "Você foi visitar sua namorada? "), (3, "Você estudou? "))
+
 hist = {}
+
 def history(choy):
     hist.update(choy)
     print(hist)
