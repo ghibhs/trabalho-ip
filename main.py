@@ -15,5 +15,4 @@ while n != -1:
     sw.show_status(dt.status)
     stt.recovery()
 
-for i in range(len(dt.hist)):
-    print(dt.hist[i])
+dt.show_hist()

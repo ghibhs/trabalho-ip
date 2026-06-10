@@ -12,3 +12,7 @@ hist = []
 
 def history(choy):
     hist.append(choy)
+
+def show_hist():
+    for i in hist:
+        print("\n",i)
